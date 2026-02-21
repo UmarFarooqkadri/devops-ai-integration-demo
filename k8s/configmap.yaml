@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: devops-ai-config
+  namespace: devops-ai
+data:
+  LOG_LEVEL: "INFO"
+  K8S_NAMESPACE: "devops-ai"
+  PROMETHEUS_PORT: "9090"
+  OPENAI_MODEL: "gpt-4o"
+  AWS_REGION: "eu-north-1"
