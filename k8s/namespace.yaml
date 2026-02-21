@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devops-ai
+  labels:
+    app.kubernetes.io/name: devops-ai-platform
+    app.kubernetes.io/part-of: devops-ai
